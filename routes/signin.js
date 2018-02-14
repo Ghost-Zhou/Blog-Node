@@ -6,7 +6,7 @@ var https = require('https');
 var scrypt = require('scrypt');
 var key = new Buffer('Rondo Blog'); // 用于 scrypt hash加密
 var UserModel = require('../models/users');
-var oAuth_github = require('../config/oAuth_github');
+//var oAuth_github = require('../config/oAuth_github');
 
 var checkNotLogin = require('../middlewares/check').checkNotLogin;
 

@@ -25,5 +25,5 @@ module.exports = function(app){
 
     app.use('/',require('./posts'));
 
-    app.use('/',require('./upload_qiniu.js'));
+ //   app.use('/',require('./upload_qiniu.js'));
 };
